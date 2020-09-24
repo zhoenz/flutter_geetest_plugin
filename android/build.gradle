@@ -1,0 +1,47 @@
+group 'com.wxhg.flutter_geetest_plugin'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        maven { url 'https://www.jitpack.io' }
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        maven { url 'https://www.jitpack.io' }
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    // api 'com.wxhg.android.geetest:geetestlib:4.1.6_20191107'
+    implementation 'com.geetest.sensebot:sensebot:4.2.5'
+    api 'com.tencent.tbs.tbssdk:sdk:43697'
+    api 'com.squareup.okhttp3:okhttp:4.2.2'
+}
