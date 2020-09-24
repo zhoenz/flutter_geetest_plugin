@@ -24,7 +24,7 @@
 }
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"flutter_geetest_plugin"
+      methodChannelWithName:@"flutter_geetest_plugin_backendjson"
             binaryMessenger:[registrar messenger]];
   FlutterGeetestPlugin* instance = [[FlutterGeetestPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];

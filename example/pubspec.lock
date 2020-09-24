@@ -62,7 +62,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_geetest_plugin:
+  flutter_geetest_plugin_backendjson:
     dependency: "direct main"
     description:
       path: ".."
