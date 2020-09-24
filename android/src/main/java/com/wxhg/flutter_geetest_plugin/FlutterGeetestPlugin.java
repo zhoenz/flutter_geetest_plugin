@@ -121,7 +121,7 @@ public class FlutterGeetestPlugin implements MethodCallHandler {
   /** Plugin registration. */
   public static void registerWith(Registrar registrar) {
     final MethodChannel channel =
-        new MethodChannel(registrar.messenger(), "flutter_geetest_plugin");
+        new MethodChannel(registrar.messenger(), "flutter_geetest_plugin_backendjson");
     channel.setMethodCallHandler(new FlutterGeetestPlugin(registrar));
   }
 

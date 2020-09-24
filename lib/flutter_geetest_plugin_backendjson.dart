@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 class FlutterGeetestPlugin {
   static const MethodChannel _channel =
-      const MethodChannel('flutter_geetest_plugin');
+      const MethodChannel('flutter_geetest_plugin_backendjson');
 
   static Future<String> get platformVersion async {
     final String version = await _channel.invokeMethod('getPlatformVersion');
