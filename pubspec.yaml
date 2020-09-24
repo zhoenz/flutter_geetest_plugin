@@ -1,8 +1,8 @@
 name: flutter_geetest_plugin
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: zhoenz<zhoenz@163.com>
+homepage: https://github.com/zhoenz/flutter_geetest_plugin
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
