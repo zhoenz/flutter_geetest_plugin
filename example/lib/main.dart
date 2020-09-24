@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_geetest_plugin/flutter_geetest_plugin_backendjson.dart';
+import 'package:flutter_geetest_plugin_backendjson/flutter_geetest_plugin_backendjson.dart';
 
 void main() => runApp(MyApp());
 
