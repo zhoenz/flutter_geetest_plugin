@@ -127,7 +127,7 @@
     NSLog(@"\n datais: %@",dataStr);
     NSArray *arr=[dataStr componentsSeparatedByString:@"&"];
     NSMutableDictionary *dic =[[NSMutableDictionary alloc] initWithCapacity:0];
-    for (int i=0; i<arr.count-1; i++) {
+    for (int i=0; i<arr.count; i++) {
         NSString *cur=arr[i];
         if([cur rangeOfString:@"="].location>0){
             NSArray *curStrArr=[cur componentsSeparatedByString:@"="];
