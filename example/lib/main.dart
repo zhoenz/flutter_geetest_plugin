@@ -46,8 +46,8 @@ class _MyAppState extends State<MyApp> {
     try {
       await FlutterGeetestPlugin.init().then((value)async {
         result = await FlutterGeetestPlugin.getGeetest(
-            'https://testbrandpay.wxhg.net/user/common/getGeeStartCaptcha',
-            'https://testbrandpay.wxhg.net/user/common/geeStartCaptchaCheck');
+            'api1',
+            'api2');
         //api1 api2 填写极验对应的后端服务Url地址
       });
     } on Exception {
