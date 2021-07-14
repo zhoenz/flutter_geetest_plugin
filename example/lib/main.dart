@@ -44,8 +44,12 @@ class _MyAppState extends State<MyApp> {
     String result;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      result = await FlutterGeetestPlugin.getGeetest('api1', 'api2');
-      //api1 api2 填写极验对应的后端服务Url地址
+      await FlutterGeetestPlugin.init().then((value)async {
+        result = await FlutterGeetestPlugin.getGeetest(
+            'https://testbrandpay.wxhg.net/user/common/getGeeStartCaptcha',
+            'https://testbrandpay.wxhg.net/user/common/geeStartCaptchaCheck');
+        //api1 api2 填写极验对应的后端服务Url地址
+      });
     } on Exception {
 //      platformVersion = 'Failed to get platform version.';
     }
@@ -72,7 +76,9 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               new Text('$_platformVersion\n'),
               RaisedButton(
-                onPressed: getGeetest,
+                onPressed: () {
+                  getGeetest();
+                },
                 child: Text("geetest"),
               )
             ],

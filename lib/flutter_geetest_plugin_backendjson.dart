@@ -20,4 +20,9 @@ class FlutterGeetestPlugin {
     final String result = await _channel.invokeMethod('getGeetest', params);
     return result;
   }
+
+  static Future<String> init() async {
+    final String result = await _channel.invokeMethod('init', null);
+    return result;
+  }
 }
