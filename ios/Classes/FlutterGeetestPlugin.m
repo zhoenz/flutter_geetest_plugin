@@ -42,7 +42,9 @@
       [self.manager registerCaptcha:nil];
       [self.manager disableBackgroundUserInteraction:YES];
       [self.manager startGTCaptchaWithAnimated:YES];
-  }else {
+  } else if ([@"init" isEqualToString:call.method]) {
+      result(@"iOS INIT SUCCESS");
+  } else {
     result(FlutterMethodNotImplemented);
   }
 }
