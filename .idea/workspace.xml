@@ -1,45 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="flutter_geetest_plugin.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/flutter_geetest_plugin.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="0d421807-b430-45fe-a9dc-a2c40455f68d" name="Default Changelist" comment="增加初始化方法">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1vFgLPgkQTWPhagPoaWXaKRwxL5" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/build.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git push master" />
+      <command value="git push master master" />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d421807-b430-45fe-a9dc-a2c40455f68d" name="Default Changelist" comment="" />
+      <created>1626163194680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626163194680</updated>
+    </task>
+    <task id="LOCAL-00001" summary="增加初始化方法">
+      <created>1626252162956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626252162956</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加初始化方法">
+      <created>1626252321944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626252321944</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加初始化方法">
+      <created>1626252540250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626252540250</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加初始化方法">
+      <created>1626252614786</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626252614786</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加初始化方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加初始化方法" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="75" key="CommitChangelistDialog2" timestamp="1626252613364">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="447" y="75" key="CommitChangelistDialog2/0.0.1920.1019@0.0.1920.1019" timestamp="1626252613364" />
+    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1631867753706">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1019@0.0.1920.1019" timestamp="1631867753706" />
+    <state width="1860" height="272" key="GridCell.Tab.0.bottom" timestamp="1626252782002">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1626252782002" />
+    <state width="1860" height="272" key="GridCell.Tab.0.center" timestamp="1626252782002">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="272" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1626252782002" />
+    <state width="1860" height="272" key="GridCell.Tab.0.left" timestamp="1626252782002">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="272" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1626252782002" />
+    <state width="1860" height="272" key="GridCell.Tab.0.right" timestamp="1626252782002">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="272" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1626252782002" />
+    <state width="1860" height="385" key="GridCell.Tab.1.bottom" timestamp="1626252781999">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1626252781999" />
+    <state width="1860" height="385" key="GridCell.Tab.1.center" timestamp="1626252781999">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="385" key="GridCell.Tab.1.center/0.0.1920.1019@0.0.1920.1019" timestamp="1626252781999" />
+    <state width="1860" height="385" key="GridCell.Tab.1.left" timestamp="1626252781999">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="385" key="GridCell.Tab.1.left/0.0.1920.1019@0.0.1920.1019" timestamp="1626252781999" />
+    <state width="1860" height="385" key="GridCell.Tab.1.right" timestamp="1626252781999">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1860" height="385" key="GridCell.Tab.1.right/0.0.1920.1019@0.0.1920.1019" timestamp="1626252781999" />
+    <state x="662" y="241" width="603" height="536" key="find.popup" timestamp="1626252309239">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="662" y="241" width="603" height="536" key="find.popup/0.0.1920.1019@0.0.1920.1019" timestamp="1626252309239" />
+    <state x="616" y="237" width="672" height="677" key="run.anything.popup" timestamp="1626252187465">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="616" y="237" width="672" height="677" key="run.anything.popup/0.0.1920.1019@0.0.1920.1019" timestamp="1626252187465" />
+    <state x="623" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1626164647594">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="623" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1019@0.0.1920.1019" timestamp="1626164647594" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>61</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

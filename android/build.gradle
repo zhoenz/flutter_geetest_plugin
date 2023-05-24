@@ -43,5 +43,6 @@ dependencies {
     // api 'com.wxhg.android.geetest:geetestlib:4.1.6_20191107'
     implementation 'com.geetest.sensebot:sensebot:4.2.5'
     api 'com.tencent.tbs.tbssdk:sdk:43697'
+//    api 'com.tencent.tbs:tbssdk:44085'
     api 'com.squareup.okhttp3:okhttp:4.2.2'
 }

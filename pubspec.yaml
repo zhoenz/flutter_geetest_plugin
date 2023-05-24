@@ -1,10 +1,10 @@
 name: flutter_geetest_plugin_backendjson
 description: A new flutter plugin project.
-version: 0.0.8
+version: 0.0.9
 homepage: https://github.com/zhoenz/flutter_geetest_plugin
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=1.20.0"
 
 dependencies:
